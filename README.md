@@ -6,12 +6,11 @@ Usually, a data scientist needs several tools to help complete their tasks more 
 Therefore, in starting my career as a data scientist, I started by learning Python and working on a program. The function of this program is to provide information to students based on the inputted grades.
 
 Goals:
-1. Manual input by the user
-2. Data Type Reading (Name, NIM, Grade)
-3. Use of if-elif-else to determine the caption
-4. Output in the form of captions
+1. User input in the form of name, NIM, and grade.
+2. Check and display the data type of each input.
+3. Use if-elif-else to determine the grade category with predefined criteria.
 
-Insights:
+Ouputs:
 1. The data type of Name and NIM is string (str), while Grade is integer (int).
 2. The output given will vary according to the value entered.
 3. If the grade entered is a number that ranges from 0 to 100, then the output is a description in the form of alphabet letters. However, if the grade entered is a letter or the grade is greater than 100, the output is "Nilai tidak valid" (In English: "Invalid value").
